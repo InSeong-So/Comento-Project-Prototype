@@ -1,6 +1,0 @@
-{
-  "testFiles": "*.test.js",
-  "screenshotOnRunFailure": false,
-  "video": false,
-  "blockHosts": ["cdn.jsdelivr.net"]
-}

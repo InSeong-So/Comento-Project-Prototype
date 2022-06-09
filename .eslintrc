@@ -2,21 +2,19 @@
   "env": {
     "browser": true,
     "es2021": true,
-    "jest": true,
     "node": true
   },
   "extends": [
     "eslint:recommended",
     "prettier",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
     "plugin:cypress/recommended"
   ],
-  "plugins": ["prettier", "@typescript-eslint"],
+  "plugins": [
+    "prettier"
+  ],
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "parser": "@typescript-eslint/parser",
-    "ecmaVersion": 12,
-    "sourceType": "module"
+    "requireConfigFile": false
   },
   "rules": {
     "prettier/prettier": [
@@ -27,7 +25,7 @@
         "useTabs": false,
         "tabWidth": 2,
         "trailingComma": "all",
-        "printWidth": 100,
+        "printWidth": 120,
         "bracketSpacing": true,
         "arrowParens": "avoid",
         "endOfLine": "auto"
