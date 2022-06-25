@@ -1,12 +1,13 @@
 {
-  "name": "comento-cafe",
+  "name": "@foxtagram/root",
   "version": "0.0.0",
   "description": "바닐라 자바스크립트로 구현하는 카페",
   "workspaces": [
-    "apps/server",
-    "apps/client"
+    "./apps/*"
   ],
-
+  "scripts": {
+    "dev": "npm run dev --workspace=@foxtagram/client"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/InSeong-So/Frontend.git"

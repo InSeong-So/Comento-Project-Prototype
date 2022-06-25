@@ -1,10 +1,10 @@
 {
-  "name": "client",
+  "name": "@foxtagram/client",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -19,8 +19,6 @@
   },
   "homepage": "https://github.com/InSeong-So/mentoring_tutorial#readme",
   "devDependencies": {
-    "@picocss/pico": "^1.5.2",
-    "cypress": "^10.0.3",
     "vite": "^2.9.10"
   }
 }
